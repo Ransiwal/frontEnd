@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = 'http://localhost:5000';
+const url = 'https://backend-1-5x5q.onrender.com';
 
 export const fetchCategoryList = () => axios.get(`${url}/api/categoryList`)
 export const fetchAllProducts = (limit , offset) => axios.get(`${url}/api/products?limit=${limit}&offset=${offset}`)
