@@ -29,3 +29,7 @@ export default function Home() {
  </>
   );
 }
+// 1. I have implementes the ability to reload only when ALL Products are fetched when particular category 
+//  is fetched all prpoduts are fethed in one go
+
+// 2. I couldn't implemented search operation
